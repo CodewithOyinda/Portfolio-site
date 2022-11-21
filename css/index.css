@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../assets/pastel-pink-blue-background_503815-244.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px 40px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+p {
+    color:grey;
+}
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo i {
+  font-size: 1.5rem;
+}
+ul {
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+nav ul {
+  display: flex;
+  gap: 1.8rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.button {
+  color: white;
+  background: black;
+  width: 90px;
+  height: 30px;
+  border-radius: 0.25rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.portfolio {
+  background: rgb(234, 230, 230);
+  height: 100vh;
+  border-radius: 0.25rem;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 50rem;
+  margin: 60px auto;
+}
+.img__container {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    
+}
+.img__container img {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.title {
+  width: 50%;
+}
+.title h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.career {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 50rem;
+  margin: 60px auto;
+}
+.statement  {
+  width: 100%;
+
+}
+.statement p {
+  font-size: 14px;
+}
+.skill {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.tab {
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  color: black;
+  width: fit-content;
+  font-size: 12px;
+  padding: 2px 6px;
+  letter-spacing: 1px;
+}
